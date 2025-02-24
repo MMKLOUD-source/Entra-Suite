@@ -35,12 +35,32 @@ Ce tutoriel vous guide à travers la création et la configuration de votre prem
 Vous pouvez créer des utilisateurs de plusieurs manières dans **Entra ID** :
 
 #### 1️⃣ Via le Portail Azure
-1. Accédez à **Utilisateurs** > **Nouvel utilisateur**.  
-2. Remplissez les champs :  
-   - **Nom** : Test User  
-   - **Nom principal** : testuser@myentra.onmicrosoft.com  
-   - **Rôle** : Utilisateur standard  
-3. Cliquez sur **Créer**.
+1. Accédez à **Utilisateurs** > **Nouvel utilisateur**.
+![image](https://github.com/user-attachments/assets/c394b9d5-c742-457d-83f3-73abe2f3c58e)
+
+2. Remplissez les champs :
+   **Basics**
+   - **User principal name (UPN)** : Identifiant unique de l’utilisateur sous la forme `nom@domaine.onmicrosoft.com`.
+   - **Domain** : Sélection du domaine associé à l’utilisateur.
+   - **Mail nickname** : Surnom de messagerie généré automatiquement.
+   - **Display name** : Nom affiché pour l’utilisateur.
+   - **Password** : Mot de passe initial de l’utilisateur (généré automatiquement si coché).
+   - **Account enabled** : Active ou désactive le compte utilisateur.
+   **Properties** permet de définir des informations supplémentaires pour l'utilisateur :
+   - **Job title** : Titre du poste.
+   - **Department** : Département d'affectation.
+   - **Office location** : Lieu de travail.
+   - **Manager** : Responsable hiérarchique.
+   - **Company name** : Nom de l'entreprise.
+   - **Country/Region** : Pays ou région d’affectation.
+   **Assignments** permet d'attribuer des rôles et des accès à l'utilisateur :
+   - **Roles** : Attribution d’un rôle administratif (ex. Global Admin, User Admin).
+   - **Licenses** : Attribution de licences Microsoft 365 ou Azure.
+   - **Groups** : Ajout de l’utilisateur à un ou plusieurs groupes de sécurité.
+  
+
+   Assignements
+4. Cliquez sur **Créer**.
 
 #### 2️⃣ Via un fichier d'import CSV
 Vous pouvez également créer plusieurs utilisateurs en **important un fichier CSV** :
