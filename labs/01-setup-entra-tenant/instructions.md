@@ -39,7 +39,7 @@ Vous pouvez créer des utilisateurs de plusieurs manières dans **Entra ID** :
 ![image](https://github.com/user-attachments/assets/c394b9d5-c742-457d-83f3-73abe2f3c58e)
 
 2. Remplissez les champs :
-   **Basics**
+   # **Basics**
    - **User principal name (UPN)** : Identifiant unique de l’utilisateur sous la forme `nom@domaine.onmicrosoft.com`.
    - **Domain** : Sélection du domaine associé à l’utilisateur.
    - **Mail nickname** : Surnom de messagerie généré automatiquement.
@@ -61,7 +61,6 @@ Vous pouvez créer des utilisateurs de plusieurs manières dans **Entra ID** :
    - **Groups** : Ajout de l’utilisateur à un ou plusieurs groupes de sécurité.
   
 
-   Assignements
 4. Cliquez sur **Créer**.
 
 #### 2️⃣ Via un fichier d'import CSV
