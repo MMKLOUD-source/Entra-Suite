@@ -14,6 +14,7 @@ mmkloud-entra-suite/
 │   ├── ...
 │── labs/                     # Labs interactifs
 │   ├── 01-setup-entra-id/    # Mois 1 - Premier Tenant Entra ID
+│   ├── ...  
 │── scripts/                  # Scripts utiles
 │   ├── create-entra-tenant.ps1
 ```
