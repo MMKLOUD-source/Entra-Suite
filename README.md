@@ -13,7 +13,7 @@ mmkloud-entra-suite/
 │   ├── 01-microsoft-entra-intro       # Mois 1 - Introduction & Bases
 │   ├── ...
 │── labs/                              # Labs interactifs
-│   ├── 01-setup-entra-id/             # Mois 1 - Premier Tenant Entra ID
+│   ├── 01-setup-entra-id/             # Mois 1 - Créer et configurer votre premier tenant Entra ID
 │   ├── ...  
 ```
 
