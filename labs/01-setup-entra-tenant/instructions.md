@@ -23,7 +23,7 @@ Ce tutoriel vous guide à travers la création et la configuration de votre prem
 
 ---
 
-## 🔹 2. Configuration de base
+##  2. Configuration de base
 
 ###  Ajouter un utilisateur test
 1️⃣ Accédez à **Utilisateurs** > **Nouvel utilisateur**.  
@@ -57,4 +57,4 @@ Microsoft applique désormais des paramètres de **sécurité par défaut** pour
 ##  Conclusion
 Vous avez maintenant un tenant **Entra ID** fonctionnel avec un utilisateur, un groupe et les paramètres de **sécurité par défaut** activés, incluant MFA.  
 
- ** --> Prochaine étape : Configurer l'authentification Passwordless et Conditional Access.**
+📌 ** Prochaine étape : Configurer l'authentification Passwordless et Conditional Access.**
