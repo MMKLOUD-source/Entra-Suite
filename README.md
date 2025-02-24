@@ -7,13 +7,13 @@ Bienvenue dans le dépôt **MMKloud - Microsoft Entra Suite**. Ce projet propose
 
 ```
 mmkloud-entra-suite/
-│── README.md                 # Présentation du projet et instructions d'utilisation
-│── .gitignore                # Exclusion des fichiers temporaires et non nécessaires
-│── articles/                 # Articles détaillés
-│   ├── 01-introduction/      # Mois 1 - Introduction & Bases
+│── README.md                          # Présentation du projet et instructions d'utilisation
+│── .gitignore                         # Exclusion des fichiers temporaires et non nécessaires
+│── articles/                          # Articles détaillés
+│   ├── 01-microsoft-entra-intro       # Mois 1 - Introduction & Bases
 │   ├── ...
-│── labs/                     # Labs interactifs
-│   ├── 01-setup-entra-id/    # Mois 1 - Premier Tenant Entra ID
+│── labs/                              # Labs interactifs
+│   ├── 01-setup-entra-id/             # Mois 1 - Premier Tenant Entra ID
 │   ├── ...  
 ```
 
