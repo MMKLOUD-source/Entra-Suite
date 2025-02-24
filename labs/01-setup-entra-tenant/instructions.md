@@ -69,15 +69,15 @@ Vous pouvez créer des utilisateurs de plusieurs manières dans **Entra ID** :
 Vous pouvez également créer plusieurs utilisateurs en **important un fichier CSV** :
 1. Accédez à **Utilisateurs** > **Création en bloc**.
    
-   ![image](https://github.com/user-attachments/assets/b3434b74-7f24-4d22-825e-0998a5992266)
+![image](https://github.com/user-attachments/assets/b3434b74-7f24-4d22-825e-0998a5992266)
 
 2. Téléchargez le modèle CSV proposé par Microsoft.
 
-  ![image](https://github.com/user-attachments/assets/2d2b234f-6655-4657-855e-049525ce4808)
+![image](https://github.com/user-attachments/assets/2d2b234f-6655-4657-855e-049525ce4808)
 
 3. Remplissez les informations des utilisateurs (Nom, UPN, Rôle, etc.).
 
-   ![image](https://github.com/user-attachments/assets/67d55a4e-b83c-451b-a2de-054676715bc2)
+![image](https://github.com/user-attachments/assets/67d55a4e-b83c-451b-a2de-054676715bc2)
 
 4. Importez le fichier et vérifiez la création des utilisateurs.
 
