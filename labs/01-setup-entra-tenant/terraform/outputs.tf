@@ -1,3 +1,4 @@
+# Définit les valeurs de sortie affichées après le déploiement (ex : ID du tenant, domaine).
 # outputs.tf - Sorties de Terraform
 
 output "tenant_id" {
