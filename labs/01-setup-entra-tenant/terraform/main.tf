@@ -1,3 +1,4 @@
+# Définit les ressources principales à déployer avec Terraform (ex : création du tenant Entra ID).
 # Terraform - Création d'un tenant Entra ID
 
 provider "azurerm" {
