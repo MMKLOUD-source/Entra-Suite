@@ -1,3 +1,4 @@
+# Contient les variables configurables utilisées dans le déploiement Terraform (ex : nom du tenant, admin, région).
 # variables.tf - Définition des variables pour Terraform
 
 variable "tenant_name" {
