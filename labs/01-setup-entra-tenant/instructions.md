@@ -9,6 +9,8 @@ Ce tutoriel vous guide à travers la création et la configuration de votre prem
 ✔ Un compte Microsoft avec accès à **Azure Portal**.    
 ✔ Permissions suffisantes pour créer un tenant Entra ID.
 
+
+
 ---
 
 ##  1. Création du tenant Entra ID
@@ -26,6 +28,9 @@ Ce tutoriel vous guide à travers la création et la configuration de votre prem
 ###  Vérifier la création
 - Une fois créé, accédez au tenant depuis **Microsoft Entra Admin Center**.
 ![image](https://github.com/user-attachments/assets/12cbb866-ee67-4fd2-aed3-82ce7a1fde01)
+
+
+
 
 ---
 
@@ -133,6 +138,9 @@ Install-Module AzureAD
 Connect-AzureAD
 New-AzureADGroup -DisplayName "Lab1 Entra ID" -MailEnabled $false -SecurityEnabled $true -MailNickName "adminsentra"
 ```
+
+
+
 
 ###  Activer la sécurité par défaut (incluant MFA)
 Microsoft applique désormais des paramètres de **sécurité par défaut** pour renforcer la protection des comptes. Pour vérifier et activer ces paramètres :
