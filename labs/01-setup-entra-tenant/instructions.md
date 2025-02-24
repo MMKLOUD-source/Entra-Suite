@@ -105,10 +105,25 @@ Vérifions si notre utilisateurs " User Test " a été créé sur le portail Azu
 ---
 
 ###  Créer un groupe de sécurité
-1️⃣ Allez dans **Groupes** > **Nouveau groupe**.  
-2️⃣ Type : **Sécurité**  
-3️⃣ Nom : "Admins Entra ID"  
-4️⃣ Ajoutez l'utilisateur test au groupe.
+1️⃣ Allez dans **Groupes** > **Nouveau groupe**. 
+
+![image](https://github.com/user-attachments/assets/5d9c4ac5-7de9-400f-aa43-6fda58d8ab14)
+
+2️⃣ Sélectionnez le **type de groupe** :
+   - **Security** : Groupe de sécurité utilisé pour l'attribution de permissions et d'accès.
+   - **Microsoft 365** : Groupe utilisé pour la collaboration et l'accès aux ressources Microsoft 365.
+
+Pour notre exemple, nous choisirons **Security**
+     
+3️⃣ Renseignez le **nom du groupe** et une **description**.
+4️⃣ Définissez le **type d’adhésion** du groupe :
+   - **Assigned** : Ajout manuel des membres.
+   - **Dynamic User** : Attribution automatique basée sur des règles dynamiques liées aux attributs des utilisateurs.
+   - **Dynamic Device** : Attribution automatique basée sur des règles dynamiques liées aux attributs des appareils.
+5️⃣ Cliquez sur **Créer** pour finaliser.
+
+![image](https://github.com/user-attachments/assets/733f5185-a6ce-428a-864b-812aed0a5526)
+
 
 ###  Activer la sécurité par défaut (incluant MFA)
 Microsoft applique désormais des paramètres de **sécurité par défaut** pour renforcer la protection des comptes. Pour vérifier et activer ces paramètres :
