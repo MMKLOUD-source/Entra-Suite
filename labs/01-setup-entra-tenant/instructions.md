@@ -61,6 +61,7 @@ Vous pouvez créer des utilisateurs de plusieurs manières dans **Entra ID** :
    - **Groups** : Ajout de l’utilisateur à un ou plusieurs groupes de sécurité.
   
 3. Cliquez sur **Créer**.
+![image](https://github.com/user-attachments/assets/87c6a094-a1dc-4ef9-a9a8-90526760abfb)
 
 
 #### 2️⃣ Via un fichier d'import CSV
