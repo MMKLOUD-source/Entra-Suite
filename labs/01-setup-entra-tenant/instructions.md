@@ -1,54 +1,67 @@
-#  Prérequis pour Terraform
+# 🔬 Lab 1 : Créer et configurer votre premier tenant Entra ID
 
-##  Outils nécessaires
-Avant de commencer à utiliser Terraform pour déployer Microsoft Entra ID, assurez-vous d'avoir les outils suivants installés sur votre machine :
+## 📝 Objectif
+Ce tutoriel vous guide à travers la création et la configuration de votre premier **tenant Microsoft Entra ID** (anciennement Azure AD).
 
-1. **Terraform** (dernière version stable)
-   - Télécharger et installer : [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
-   - Vérifier l'installation :
-     ```sh
-     terraform -v
-     ```
+---
 
-2. **Azure CLI** (pour l'authentification et la gestion des ressources Azure)
-   - Télécharger et installer : [Azure CLI](https://learn.microsoft.com/fr-fr/cli/azure/install-azure-cli)
-   - Vérifier l'installation :
-     ```sh
-     az version
-     ```
+## 🔹 Prérequis
+✔ Un compte Microsoft avec accès à **Azure Portal**.    
+✔ Permissions suffisantes pour créer un tenant Entra ID.
 
-3. **Compte Azure avec droits suffisants**
-   - Vous devez disposer d’un abonnement Azure valide et des permissions pour créer un tenant Entra ID.
+---
 
-##  Authentification à Azure
-Avant d'exécuter Terraform, connectez-vous à votre compte Azure :
-```sh
-az login
-```
-Si vous avez plusieurs abonnements, définissez celui à utiliser :
-```sh
-az account set --subscription "ID_DE_VOTRE_ABONNEMENT"
-```
+## 🚀 1. Création du tenant Entra ID
 
-##  Configuration de Terraform
-1. **Initialiser Terraform dans le projet**
-   ```sh
-   terraform init
-   ```
-2. **Vérifier la configuration**
-   ```sh
-   terraform validate
-   ```
-3. **Simuler les modifications à appliquer**
-   ```sh
-   terraform plan
-   ```
-4. **Appliquer la configuration**
-   ```sh
-   terraform apply -auto-approve
-   ```
+### 📌 Accéder au portail Azure
+1️⃣ Connectez-vous à [Azure Portal](https://portal.azure.com).  
+2️⃣ Microsoft propose un **mois d'essai gratuit** pour Azure. Vous pouvez créer un compte d'essai si vous n'avez pas encore d'abonnement actif : [Créer un compte d'essai](https://azure.microsoft.com/fr-fr/free/).  
+3️⃣ Recherchez **Microsoft Entra ID** dans la barre de recherche.
 
-##  Étapes suivantes
-Une fois le tenant Entra ID déployé, vous pourrez consulter les valeurs retournées par Terraform dans `outputs.tf` et procéder à d'autres configurations selon vos besoins.
+### 📌 Créer un nouveau tenant
+1️⃣ Cliquez sur **Gérer les tenants** puis sur **Créer un tenant**.  
+2️⃣ Choisissez **Microsoft Entra ID** comme type de tenant.  
+3️⃣ Remplissez les informations :  
+   - **Nom du tenant** : my-entra-id-lab  
+   - **Nom de domaine initial** : myentra.onmicrosoft.com  
+   - **Région** : Choisissez la région la plus proche de votre entreprise.  
+4️⃣ Cliquez sur **Réviser + Créer** puis **Valider**.
 
-📌 **Besoin d’aide ?** Consultez la documentation officielle [Terraform & Azure](https://learn.microsoft.com/en-us/azure/developer/terraform/)
+### 📌 Vérifier la création
+- Une fois créé, accédez au tenant depuis **Microsoft Entra Admin Center**.
+
+---
+
+## 🔹 2. Configuration de base
+
+### ✅ Ajouter un utilisateur test
+1️⃣ Accédez à **Utilisateurs** > **Nouvel utilisateur**.  
+2️⃣ Remplissez les champs :  
+   - **Nom** : Test User  
+   - **Nom principal** : testuser@myentra.onmicrosoft.com  
+   - **Rôle** : Utilisateur standard  
+3️⃣ Cliquez sur **Créer**.
+
+### ✅ Créer un groupe de sécurité
+1️⃣ Allez dans **Groupes** > **Nouveau groupe**.  
+2️⃣ Type : **Sécurité**  
+3️⃣ Nom : "Admins Entra ID"  
+4️⃣ Ajoutez l'utilisateur test au groupe.
+
+### ✅ Configurer MFA pour un utilisateur
+1️⃣ Accédez à **Utilisateurs** > **Authentification multifacteur**.  
+2️⃣ Activez MFA pour **Test User**.  
+3️⃣ Demandez à l'utilisateur de s'inscrire à MFA lors de sa prochaine connexion.
+
+---
+
+## 🔹 3. Premiers tests
+
+✔ Connectez-vous avec l'utilisateur test : [portal.azure.com](https://portal.azure.com).  
+✔ Testez l'authentification MFA.
+
+---
+
+## 🎯 Conclusion
+Vous avez maintenant un tenant **Entra ID** fonctionnel avec un utilisateur, un groupe et MFA activé.  
+🚀 **Prochaine étape : Configurer l'authentification Passwordless et Conditional Access.**
