@@ -57,4 +57,4 @@ Microsoft applique désormais des paramètres de **sécurité par défaut** pour
 ##  Conclusion
 Vous avez maintenant un tenant **Entra ID** fonctionnel avec un utilisateur, un groupe et les paramètres de **sécurité par défaut** activés, incluant MFA.  
 
- **Prochaine étape : Configurer l'authentification Passwordless et Conditional Access.**
+ ** --> Prochaine étape : Configurer l'authentification Passwordless et Conditional Access.**
