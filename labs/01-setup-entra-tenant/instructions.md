@@ -14,8 +14,13 @@ Ce tutoriel vous guide à travers la création et la configuration de votre prem
 ##  1. Création du tenant Entra ID
 
 ###  Accéder au portail Azure
-1️⃣ Connectez-vous à [Azure Portal](https://portal.azure.com).  
+1️⃣ Connectez-vous à [Azure Portal](https://portal.azure.com). 
+![image](https://github.com/user-attachments/assets/95614dc9-ea5f-4a11-8013-40641c357d88)
+
 2️⃣ Microsoft propose un **mois d'essai gratuit** pour Azure. Vous pouvez créer un compte d'essai si vous n'avez pas encore d'abonnement actif : [Créer un compte d'essai](https://azure.microsoft.com/fr-fr/free/).  
+![image](https://github.com/user-attachments/assets/bdcf8ed1-a8d8-44e5-9cf9-f56abaceca2e)
+
+
 3️⃣ Recherchez **Microsoft Entra ID** dans la barre de recherche.
 
 ###  Créer un nouveau tenant
