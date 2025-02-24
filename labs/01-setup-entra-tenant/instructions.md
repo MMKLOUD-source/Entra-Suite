@@ -89,6 +89,19 @@ Connect-AzureAD
 New-AzureADUser -DisplayName "Test User" -UserPrincipalName "testuser@myentra.onmicrosoft.com" -AccountEnabled $true -PasswordProfile @{Password="P@ssword123"; ForceChangePasswordNextLogin=$true} -MailNickName "testuser"
 ```
 
+![image](https://github.com/user-attachments/assets/c55c0abc-3539-4b33-a061-e58b5d66d06a)
+
+![image](https://github.com/user-attachments/assets/30bff4b0-9534-45fe-a02d-dd0115bf214c)
+
+![image](https://github.com/user-attachments/assets/bb219718-2e49-4341-9af8-22797acbb750)
+
+Vérifions si notre utilisateurs " User Test " a été créé sur le portail Azure:
+
+![image](https://github.com/user-attachments/assets/b2de8d7a-7923-416c-9e89-c2f38a42a57e)
+
+
+
+
 ---
 
 ###  Créer un groupe de sécurité
