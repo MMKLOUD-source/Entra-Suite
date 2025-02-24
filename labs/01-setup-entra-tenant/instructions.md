@@ -5,20 +5,20 @@ Ce tutoriel vous guide à travers la création et la configuration de votre prem
 
 ---
 
-## 🔹 Prérequis
+##  Prérequis
 ✔ Un compte Microsoft avec accès à **Azure Portal**.    
 ✔ Permissions suffisantes pour créer un tenant Entra ID.
 
 ---
 
-## 🚀 1. Création du tenant Entra ID
+##  1. Création du tenant Entra ID
 
-### 📌 Accéder au portail Azure
+###  Accéder au portail Azure
 1️⃣ Connectez-vous à [Azure Portal](https://portal.azure.com).  
 2️⃣ Microsoft propose un **mois d'essai gratuit** pour Azure. Vous pouvez créer un compte d'essai si vous n'avez pas encore d'abonnement actif : [Créer un compte d'essai](https://azure.microsoft.com/fr-fr/free/).  
 3️⃣ Recherchez **Microsoft Entra ID** dans la barre de recherche.
 
-### 📌 Créer un nouveau tenant
+###  Créer un nouveau tenant
 1️⃣ Cliquez sur **Gérer les tenants** puis sur **Créer un tenant**.  
 2️⃣ Choisissez **Microsoft Entra ID** comme type de tenant.  
 3️⃣ Remplissez les informations :  
@@ -27,14 +27,14 @@ Ce tutoriel vous guide à travers la création et la configuration de votre prem
    - **Région** : Choisissez la région la plus proche de votre entreprise.  
 4️⃣ Cliquez sur **Réviser + Créer** puis **Valider**.
 
-### 📌 Vérifier la création
+###  Vérifier la création
 - Une fois créé, accédez au tenant depuis **Microsoft Entra Admin Center**.
 
 ---
 
-## 🔹 2. Configuration de base
+##  2. Configuration de base
 
-### ✅ Ajouter un utilisateur test
+###  Ajouter un utilisateur test
 1️⃣ Accédez à **Utilisateurs** > **Nouvel utilisateur**.  
 2️⃣ Remplissez les champs :  
    - **Nom** : Test User  
@@ -42,26 +42,24 @@ Ce tutoriel vous guide à travers la création et la configuration de votre prem
    - **Rôle** : Utilisateur standard  
 3️⃣ Cliquez sur **Créer**.
 
-### ✅ Créer un groupe de sécurité
+###  Créer un groupe de sécurité
 1️⃣ Allez dans **Groupes** > **Nouveau groupe**.  
 2️⃣ Type : **Sécurité**  
 3️⃣ Nom : "Admins Entra ID"  
 4️⃣ Ajoutez l'utilisateur test au groupe.
 
-### ✅ Configurer MFA pour un utilisateur
-1️⃣ Accédez à **Utilisateurs** > **Authentification multifacteur**.  
-2️⃣ Activez MFA pour **Test User**.  
-3️⃣ Demandez à l'utilisateur de s'inscrire à MFA lors de sa prochaine connexion.
+
 
 ---
 
-## 🔹 3. Premiers tests
+##  3. Premiers tests
 
 ✔ Connectez-vous avec l'utilisateur test : [portal.azure.com](https://portal.azure.com).  
 ✔ Testez l'authentification MFA.
 
 ---
 
-## 🎯 Conclusion
-Vous avez maintenant un tenant **Entra ID** fonctionnel avec un utilisateur, un groupe et MFA activé.  
+##  Conclusion
+Vous avez maintenant un tenant **Entra ID** fonctionnel avec un utilisateur, un groupe.
+
 🚀 **Prochaine étape : Configurer l'authentification Passwordless et Conditional Access.**
