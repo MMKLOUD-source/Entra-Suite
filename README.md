@@ -31,7 +31,7 @@ Les Labs permettent une mise en pratique directe. Le premier Lab :
 1. **Clone le dépôt** :
    ```sh
    git clone https://github.com/mmkloud-sources/entra-suite.git
-   cd mmkloud-entra-suite
+   cd entra-suite
    ```
 2. **Explorer les articles et les labs**.
 3. **Exécuter un Lab** :
