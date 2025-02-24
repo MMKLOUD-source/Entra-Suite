@@ -136,9 +136,14 @@ New-AzureADGroup -DisplayName "Lab1 Entra ID" -MailEnabled $false -SecurityEnabl
 
 ###  Activer la sécurité par défaut (incluant MFA)
 Microsoft applique désormais des paramètres de **sécurité par défaut** pour renforcer la protection des comptes. Pour vérifier et activer ces paramètres :
+
 1️⃣ Accédez à **Microsoft Entra Admin Center** > **Propriétés du tenant**.  
+
 2️⃣ Recherchez l'option **Paramètres de sécurité par défaut**.  
+
 3️⃣ Vérifiez que l'option est **activée**. Cela inclura automatiquement MFA pour tous les utilisateurs.
+
+![image](https://github.com/user-attachments/assets/2469733f-52c1-4b79-b42b-4e208f2c01d8)
 
 ---
 
