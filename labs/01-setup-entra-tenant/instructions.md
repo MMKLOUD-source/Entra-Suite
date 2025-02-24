@@ -15,25 +15,17 @@ Ce tutoriel vous guide à travers la création et la configuration de votre prem
 
 ###  Accéder au portail Azure
 1️⃣ Connectez-vous à [Azure Portal](https://portal.azure.com). 
-![image](https://github.com/user-attachments/assets/95614dc9-ea5f-4a11-8013-40641c357d88)
+![image](https://github.com/user-attachments/assets/e92859d6-a399-4c73-8d06-3a92a58d2cf4)
 
 2️⃣ Microsoft propose un **mois d'essai gratuit** pour Azure. Vous pouvez créer un compte d'essai si vous n'avez pas encore d'abonnement actif : [Créer un compte d'essai](https://azure.microsoft.com/fr-fr/free/).  
-![image](https://github.com/user-attachments/assets/bdcf8ed1-a8d8-44e5-9cf9-f56abaceca2e)
-
+![image](https://github.com/user-attachments/assets/11208313-fd6d-4c92-8a6a-37319e64e701)
 
 3️⃣ Recherchez **Microsoft Entra ID** dans la barre de recherche.
-
-###  Créer un nouveau tenant
-1️⃣ Cliquez sur **Gérer les tenants** puis sur **Créer un tenant**.  
-2️⃣ Choisissez **Microsoft Entra ID** comme type de tenant.  
-3️⃣ Remplissez les informations :  
-   - **Nom du tenant** : my-entra-id-lab  
-   - **Nom de domaine initial** : myentra.onmicrosoft.com  
-   - **Région** : Choisissez la région la plus proche de votre entreprise.  
-4️⃣ Cliquez sur **Réviser + Créer** puis **Valider**.
+![image](https://github.com/user-attachments/assets/2dc5121c-6a11-4ef2-be6c-400d2ad8c06a)
 
 ###  Vérifier la création
 - Une fois créé, accédez au tenant depuis **Microsoft Entra Admin Center**.
+![image](https://github.com/user-attachments/assets/12cbb866-ee67-4fd2-aed3-82ce7a1fde01)
 
 ---
 
