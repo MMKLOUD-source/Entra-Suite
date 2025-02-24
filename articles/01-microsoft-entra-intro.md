@@ -35,7 +35,7 @@ Microsoft Entra Suite est l’évolution d’**Azure Active Directory (Azure AD)
 - Protection pour l’accès internet sortant
 - Sécurisation des connexions aux applications SaaS
 
-### 6. Microsoft Entra Verified ID
+### 7. Microsoft Entra Verified ID
 - Remplacement des VPN traditionnels par un accès Zero Trust
 - Accès réseau sécurisé aux applications privées
 
