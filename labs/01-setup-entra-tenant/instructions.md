@@ -126,6 +126,13 @@ Pour notre exemple, nous choisirons **Security**
 
 ![image](https://github.com/user-attachments/assets/733f5185-a6ce-428a-864b-812aed0a5526)
 
+####  Création d'un groupe via PowerShell
+Vous pouvez également créer un groupe via PowerShell en utilisant la commande suivante :
+```powershell
+Install-Module AzureAD
+Connect-AzureAD
+New-AzureADGroup -DisplayName "Lab1 Entra ID" -MailEnabled $false -SecurityEnabled $true -MailNickName "adminsentra"
+```
 
 ###  Activer la sécurité par défaut (incluant MFA)
 Microsoft applique désormais des paramètres de **sécurité par défaut** pour renforcer la protection des comptes. Pour vérifier et activer ces paramètres :
