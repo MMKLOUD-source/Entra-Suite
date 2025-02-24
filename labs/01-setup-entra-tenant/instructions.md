@@ -116,10 +116,12 @@ Vérifions si notre utilisateurs " User Test " a été créé sur le portail Azu
 Pour notre exemple, nous choisirons **Security**
      
 3️⃣ Renseignez le **nom du groupe** et une **description**.
+
 4️⃣ Définissez le **type d’adhésion** du groupe :
    - **Assigned** : Ajout manuel des membres.
    - **Dynamic User** : Attribution automatique basée sur des règles dynamiques liées aux attributs des utilisateurs.
    - **Dynamic Device** : Attribution automatique basée sur des règles dynamiques liées aux attributs des appareils.
+     
 5️⃣ Cliquez sur **Créer** pour finaliser.
 
 ![image](https://github.com/user-attachments/assets/733f5185-a6ce-428a-864b-812aed0a5526)
