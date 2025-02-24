@@ -47,7 +47,7 @@ Vous pouvez créer des utilisateurs de plusieurs manières dans **Entra ID** :
    - **Password** : Mot de passe initial de l’utilisateur (généré automatiquement si coché).
    - **Account enabled** : Active ou désactive le compte utilisateur.
      
-   **Properties** permet de définir des informations supplémentaires pour l'utilisateur :
+   **Properties** permet de définir des informations supplémentaires pour l'utilisateur (optionnel):
    - **Job title** : Titre du poste.
    - **Department** : Département d'affectation.
    - **Office location** : Lieu de travail.
@@ -55,7 +55,7 @@ Vous pouvez créer des utilisateurs de plusieurs manières dans **Entra ID** :
    - **Company name** : Nom de l'entreprise.
    - **Country/Region** : Pays ou région d’affectation.
      
-   **Assignments** permet d'attribuer des rôles et des accès à l'utilisateur :
+   **Assignments** permet d'attribuer des rôles et des accès à l'utilisateur (optionnel):
    - **Roles** : Attribution d’un rôle administratif (ex. Global Admin, User Admin).
    - **Licenses** : Attribution de licences Microsoft 365 ou Azure.
    - **Groups** : Ajout de l’utilisateur à un ou plusieurs groupes de sécurité.
