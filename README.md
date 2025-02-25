@@ -1,4 +1,4 @@
-# Microsoft Entra Suite - MMKloud
+# Microsoft Entra Suite - MMKLOUD
 
 ##  Introduction
 Bienvenue dans le dépôt **MMKloud - Microsoft Entra Suite**. Ce projet propose des articles, des guides pratiques et des labs pour mieux comprendre et utiliser **Microsoft Entra Suite**.
